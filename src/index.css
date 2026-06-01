@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-trans-blue: #5BCEFA;
+  --color-trans-pink: #F5A9B8;
+}

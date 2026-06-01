@@ -1,0 +1,6 @@
+{
+  "name": "Transformers Memecoin",
+  "description": "The $TRANS Solana memecoin movement! More than meets the eye.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
