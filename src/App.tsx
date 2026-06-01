@@ -68,7 +68,7 @@ export default function App() {
             PUMP.FUN LIVE
           </div>
           <a 
-            href="https://x.com" 
+            href="https://x.com/TRANSBOTS" 
             target="_blank" 
             rel="noreferrer"
             className="w-10 h-10 md:w-12 md:h-12 bg-black flex items-center justify-center rounded-full hover:scale-110 transition-transform shadow-md"
