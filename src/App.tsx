@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Copy, Check, ArrowRight, Menu, X as CloseIcon, TrendingUp, Flame, Star, Sparkles, Trophy, Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const CONTRACT_ADDRESS = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const CONTRACT_ADDRESS = "4narUe9SFJegphpEpQJunCLnHQaozPrjeACzugE6pump";
 const LOGO_URL = "https://pbs.twimg.com/media/HLWfbvrWQAAgt_F?format=jpg&name=large";
 
 export default function App() {
@@ -247,7 +247,7 @@ export default function App() {
            <div className="flex flex-col items-center text-center">
              <div className="inline-flex items-center gap-2 bg-[#39FF14]/10 border border-[#39FF14]/30 px-4 py-2 rounded-full text-xs font-bold text-[#39FF14] mb-3">
                <TrendingUp className="w-4 h-4 text-[#39FF14]" />
-               <span>solana/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+               <span>solana/{CONTRACT_ADDRESS}</span>
              </div>
              <h2 className="text-3xl sm:text-5xl md:text-6xl font-black text-white italic uppercase drop-shadow-[4px_4px_0_#39FF14] px-2 text-center">
                Live White DexScreener Chart 📈
@@ -260,7 +260,7 @@ export default function App() {
              <iframe 
                 title="DexScreener Live Token Chart"
                 className="w-full h-full rounded-2xl bg-white"
-                src="https://dexscreener.com/solana/6knWq5JL2xBu9P9diYfsLdPqQVq9CLrVPnmPFdPpump?embed=1&theme=light" 
+                src={`https://dexscreener.com/solana/${CONTRACT_ADDRESS}?embed=1&theme=light`} 
                 frameBorder="0" 
              ></iframe>
            </div>
