@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Copy, Check, Send, Sparkles, TrendingUp, ShieldAlert, Award, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const CONTRACT_ADDRESS = "xxxxxxxxxxxxxxxxxxxxxxxxxx";
+const CONTRACT_ADDRESS = "2kmLuiYw36zsTUucm8WgY4QHJbe8AKZQFPJiBSp5pump";
 const LOGO_URL = "https://cdn.shopify.com/s/files/1/0967/8087/8151/files/ChatGPT_Image_2026._jul._1._20_15_22.png?v=1782926157";
 
 export default function App() {
@@ -57,18 +57,15 @@ export default function App() {
 
         {/* Telegram & Contract Actions */}
         <div className="flex items-center gap-3">
-          {/* Telegram link is currently empty as requested ("telegram link egyenlőre üres") */}
           <a 
-            href="#" 
-            onClick={(e) => {
-              e.preventDefault();
-              alert("Telegram community is cooking! Official link coming soon.");
-            }}
-            className="flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-gray-400 hover:text-white px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border border-gray-800 transition-all duration-200"
-            title="Telegram (Coming Soon)"
+            href="https://t.me/ansemwifbull" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-[#39FF14]/10 hover:bg-[#39FF14]/20 text-[#39FF14] px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border border-[#39FF14]/30 transition-all duration-200"
+            title="Join Telegram"
           >
-            <Send className="w-4 h-4 text-[#39FF14]" />
-            <span className="hidden sm:inline">Telegram (Soon)</span>
+            <Send className="w-4 h-4 text-[#39FF14] fill-[#39FF14]/20" />
+            <span className="hidden sm:inline">Telegram</span>
           </a>
 
           <button 
@@ -174,14 +171,13 @@ export default function App() {
               </button>
 
               <a 
-                href="#" 
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert("Bull run starting! Launching on Pump.fun very soon.");
-                }}
-                className="w-full bg-transparent hover:bg-white/5 text-white py-4 px-6 rounded-2xl font-bold text-center border-2 border-gray-800 hover:border-gray-600 transition-colors uppercase text-sm tracking-wide"
+                href={`https://pump.fun/coin/${CONTRACT_ADDRESS}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-transparent hover:bg-white/5 text-white py-4 px-6 rounded-2xl font-bold text-center border-2 border-gray-800 hover:border-gray-600 transition-colors uppercase text-sm tracking-wide flex items-center justify-center gap-1"
               >
-                Buy On Pump.fun
+                <span>Buy On Pump.fun</span>
+                <ArrowUpRight className="w-4 h-4 text-[#39FF14]" />
               </a>
             </div>
 
