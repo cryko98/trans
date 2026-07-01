@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Copy, Check, Send, Sparkles, TrendingUp, ShieldAlert, Award, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-const CONTRACT_ADDRESS = "6nnismLXf1X9pnxcPkNhEgicoQNvtaigDXCyoLXjpump";
+const CONTRACT_ADDRESS = "55F282PxSAweH1XwNn2FkGJft17DDFkW3TH7wBsKpump";
 const LOGO_URL = "https://cdn.shopify.com/s/files/1/0967/8087/8151/files/ChatGPT_Image_2026._jul._1._20_15_22.png?v=1782926157";
 
 export default function App() {
