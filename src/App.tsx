@@ -58,7 +58,7 @@ export default function App() {
         {/* Telegram & Contract Actions */}
         <div className="flex items-center gap-3">
           <a 
-            href="https://t.me/wifbullansem" 
+            href="https://t.me/ANSEMWIFBULL" 
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-[#39FF14]/10 hover:bg-[#39FF14]/20 text-[#39FF14] px-4 py-2 rounded-xl text-xs sm:text-sm font-bold border border-[#39FF14]/30 transition-all duration-200"
