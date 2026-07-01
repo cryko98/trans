@@ -1,6 +1,6 @@
 {
-  "name": "Ansem Wif Bull",
-  "description": "Ansem Wif Bull ($wifbull) - Ansem with a bull hat looks bullish! Meet Ansem wif a hat.",
+  "name": "TripleA",
+  "description": "TripleA ($TripleA) - Ansem has taken over the role of the most famous brainrot, becoming TripleA!",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

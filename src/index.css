@@ -1,76 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&family=Bangers&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&family=Bangers&family=Plus+Jakarta+Sans:wght@400;600;800&family=Comic+Neue:wght@400;700;900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Bangers", system-ui, sans-serif;
   --font-mono: "Space Grotesk", monospace;
+  --font-comic: "Comic Neue", cursive, sans-serif;
   
-  --color-anshua-green: #39FF14;
-  --color-anshua-gold: #FCD34D;
-  --color-anshua-bg: #0F172A;
-  --color-jotchua-green: #4ADE80;
+  --color-brainrot-dark: #160c07;
+  --color-brainrot-mud: #361f12;
+  --color-brainrot-wood: #633c20;
+  --color-brainrot-caramel: #b57a4c;
+  --color-brainrot-cream: #fbf3ec;
+  --color-brainrot-gold: #cca43b;
+  --color-brainrot-pink: #d946ef;
 }
 
 body {
   margin: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #0B0F19;
-  color: #FFFFFF;
+  background-color: #160c07;
+  color: #fbf3ec;
   overflow-x: hidden;
 }
 
-/* Custom Neo-Brutalist shadow classes and utility effects */
+/* Custom Neo-Brutalist shadow classes in brainrot brown/gold theme */
 .neo-card {
-  background: #1E293B;
-  border: 4px solid #FFFFFF;
-  box-shadow: 8px 8px 0px 0px #39FF14;
+  background: #361f12;
+  border: 4px solid #fbf3ec;
+  box-shadow: 8px 8px 0px 0px #cca43b;
   border-radius: 20px;
 }
 
 .neo-card-yellow {
-  background: #FCD34D;
-  color: #000000;
-  border: 4px solid #000000;
-  box-shadow: 6px 6px 0px 0px #000000;
+  background: #cca43b;
+  color: #160c07;
+  border: 4px solid #160c07;
+  box-shadow: 6px 6px 0px 0px #160c07;
   border-radius: 20px;
 }
 
-.neo-card-green {
-  background: #22C55E;
-  color: #FFFFFF;
-  border: 4px solid #FFFFFF;
-  box-shadow: 6px 6px 0px 0px #FCD34D;
+.neo-card-brown {
+  background: #633c20;
+  color: #fbf3ec;
+  border: 4px solid #fbf3ec;
+  box-shadow: 6px 6px 0px 0px #cca43b;
   border-radius: 20px;
 }
 
 .neo-button {
-  border: 3px solid #FFFFFF;
-  box-shadow: 4px 4px 0px 0px #39FF14;
+  border: 3px solid #fbf3ec;
+  box-shadow: 4px 4px 0px 0px #cca43b;
   transition: all 0.15s ease-in-out;
 }
 
 .neo-button:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px 0px #39FF14;
+  box-shadow: 6px 6px 0px 0px #cca43b;
 }
 
 .neo-button:active {
   transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0px 0px #39FF14;
+  box-shadow: 2px 2px 0px 0px #cca43b;
 }
 
 /* Highlight tags resembling graffiti tags or sticker aesthetics */
 .sticker {
   transform: rotate(-3deg);
   display: inline-block;
-  background: #FF007F;
-  color: white;
+  background: #cca43b;
+  color: #160c07;
   font-weight: 900;
   padding: 4px 12px;
-  border: 2px solid white;
+  border: 2px solid #fbf3ec;
   border-radius: 8px;
-  box-shadow: 3px 3px 0 0 #000;
+  box-shadow: 3px 3px 0 0 #160c07;
 }
 
 /* Custom scrollbar and sleek selections */
@@ -78,9 +82,10 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0B0F19;
+  background: #160c07;
 }
 ::-webkit-scrollbar-thumb {
-  background: #39FF14;
+  background: #cca43b;
   border-radius: 5px;
 }
+
