@@ -1,6 +1,6 @@
 {
-  "name": "Anshua Memecoin",
-  "description": "Anshua ($anshua) - The ultimate Jotchua x Ansem Solana memecoin! Inspired by the top-trending meme.",
+  "name": "Ansem Wif Bull",
+  "description": "Ansem Wif Bull ($wifbull) - Ansem with a bull hat looks bullish! Meet Ansem wif a hat.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
